@@ -1,0 +1,32 @@
+# Data files (too large for GitHub)
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+*.h5
+*.pt
+*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Python cache
+*.pyc
+*.pyo
+
+# Large datasets
+data/
+input/
+datasets/
+flowers/
+
+# Model files
+models/
+*.keras
+*.pb
+
+# Environment
+.env
+venv/
+env/
