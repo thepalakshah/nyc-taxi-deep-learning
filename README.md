@@ -6,6 +6,12 @@ End-to-end deep learning pipeline for analyzing NYC Yellow Taxi trip data, featu
 
 This project analyzes 2M+ NYC Yellow Taxi trip records from 2020, implementing a complete machine learning workflow from exploratory data analysis to building production-ready regression models for trip duration prediction.
 
+## 🚀 Quick Start
+
+**Recommended:** Open in [Google Colab](https://colab.research.google.com/) - all dependencies pre-installed!
+
+**Local Setup:** Requires Python 3.10
+
 ## 🚀 Pipeline Components
 
 ### Phase 1: Exploratory Data Analysis & Data Preprocessing
