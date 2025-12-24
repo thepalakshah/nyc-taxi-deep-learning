@@ -106,3 +106,44 @@ jupyter notebook
 
 🔗 [LinkedIn](https://linkedin.com/in/thepalakshah) | 🌐 [Portfolio](https://palakshahportfolio.netlify.app/) | 💻 [GitHub](https://github.com/thepalakshah)
 
+# Compatible with Python 3.10
+tensorflow>=2.15.0,<2.17.0
+pandas>=1.5.0,<2.3.0
+numpy>=1.23.0,<1.27.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+jupyter>=1.0.0
+fastparquet>=2023.0.0
+pyarrow>=14.0.0
+
+# Note: TFDV installation is complex, run separately:
+# pip install tensorflow-data-validation
+
+## 💻 Installation & Usage
+
+### Option 1: Google Colab (Recommended)
+
+1. Open in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thepalakshah/nyc-taxi-deep-learning/blob/main/01_exploratory_analysis.ipynb)
+2. All dependencies are pre-installed
+3. Free GPU access included
+4. Just run the cells!
+
+### Option 2: Local Installation
+
+**Requirements:**
+- Python 3.10 (NOT 3.11 or 3.13 - TensorFlow compatibility)
+```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+```
+
+**Note:** TensorFlow and PyTorch require Python 3.10. If you have Python 3.11+, use Google Colab instead.
+
